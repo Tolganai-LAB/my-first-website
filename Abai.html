@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Абайдың 180 жылдығы</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Абай Құнанбаев — 180 жыл</h1>
+      <p class="lead">Ұлы ақын, ойшыл және ағартушыны еске алу.</p>
+      <nav class="nav" aria-label="Негізгі мәзір">
+        <a href="#about">Туралы</a>
+        <a href="#works">Шығармалары</a>
+        <a href="#events">Іс-шаралар</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contact">Байланыс</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>Абай туралы</h2>
+      <p>Абай Құнанбаев (1845–1904) — қазақтың ұлы ақыны, философы және ағартушысы. Оның "Қара сөздері" — қазақ ой-санасының алтын қоры.</p>
+      <ul>
+        <li><strong>Туған жылы:</strong> 1845</li>
+        <li><strong>Туған жері:</strong> Семей өңірі</li>
+      </ul>
+    </section>
+
+    <section id="works" class="card">
+      <h2>Негізгі шығармалары</h2>
+      <ol>
+        <li>"Қара сөздер"</li>
+        <li>"Ғылым таппай мақтанба"</li>
+        <li>Өлеңдер мен аудармалар</li>
+      </ol>
+    </section>
+
+    <section id="events" class="card">
+      <h2>Іс-шаралар</h2>
+      <p>Ұсынылатын форматтар: әдеби кештер, семинарлар, экскурсиялар, шығармашылық конкурстар.</p>
+    </section>
+
+    <section id="gallery" class="card">
+      <h2>Галерея</h2>
+      <div class="grid" id="galleryGrid">
+        <!-- Суреттерді мына жерге <img> арқылы қой -->
+        <div class="img">Өрнек/сурет 1</div>
+        <div class="img">Өрнек/сурет 2</div>
+        <div class="img">Өрнек/сурет 3</div>
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Байланыс</h2>
+      <form id="contactForm" novalidate>
+        <label>Атыңыз (міндетті):<br><input type="text" id="name" required></label>
+        <label>Электрондық пошта:<br><input type="email" id="email"></label>
+        <label>Хабарлама:<br><textarea id="message" rows="4"></textarea></label>
+        <button type="submit">Жіберу</button>
+      </form>
+      <p id="formResult" class="small" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 — Абай 180. Барлық құқықтар қорғалған.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
